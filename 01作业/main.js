@@ -1,10 +1,10 @@
 import Vue from 'vue'
 import App from './App.vue'
-// 引入css和bootstrap
-import "./assets/fonts/iconfont.css"
-import "bootstrap/dist/css/bootstrap.min.css"
+import router from '04tabbar案例/router'
 Vue.config.productionTip = false
 
 new Vue({
+  // 注册路由
+  router,
   render: h => h(App)
 }).$mount('#app')
