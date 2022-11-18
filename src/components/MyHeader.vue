@@ -21,14 +21,14 @@ export default {
     title: String,
     background: {
       type: String,
-      default: "green",
+      default: 'green'
     },
     color: {
       type: String,
-      required: true,
-    },
-  },
-};
+      required: true
+    }
+  }
+}
 </script>
 
 <style lang="less" scoped>
